@@ -21,6 +21,6 @@ if __name__ == '__main__':
         if collatz(i) > max_count:
             max_count = collatz(i)
             max_index = i
-    print(max_index)
+    print(max_index, max_count)
 
 
